@@ -19,7 +19,7 @@ jobs:
       - name: Run JMeter Action
         uses: actions/checkout@v2
         with:
-          testFilePath: Scripts/sample_test.jmx
+          testFilePath: Scripts/Peformance Bulk Inserts approach 3.jmx
           outputReportsFolder: ./
           args: "--loglevel INFO"
           plugins: "jpgc-casutg"
