@@ -62,7 +62,7 @@ runs:
     - "-t"
     - "${{ inputs.testFilePath }}"
     - "-l"
-    - "jmeter_log.log"
+    - "Perf_test_approach_3.log"
     - "-e"
     - "-f"
     - "-o"
